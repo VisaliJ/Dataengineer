@@ -1,0 +1,14 @@
+ 08/25/2022  what is the difference between GRS and GZRS
+
+           Geo redundant Storage                                                                 Geo Zone Redundant Storage
+
+1. we can have 3 copies of database with in the same Region                  1.we can have 3 copies of database in different zones of   
+as a primary Region and paired with another datacenter 100 of                  datacenters as a primary Region and 3 more copies in another 
+miles away with in the region as a secondary Region.Here also                  Region as Secondary Region.
+we can have another 3 copies of database.   
+ 
+For EX: 3 copies in US central (primary Region)                                EX:  3 copies in US in Different Zones (primary Region)
+        3 copies in US East  (Secondary Region)                                     3 copies in Australia (secondary Region)
+
+
+2.  Both have R/W access in Primary Region                                    2.It is more Expensive Storage Redundancy.
